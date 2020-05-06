@@ -3,16 +3,13 @@ Simple script to create a wordlist for a specific target.
 
 ## Usage
 ```bash
-python3 ./custom_password_dictionary_generator.py word [word [word..n]] > wordlist.lst
+:~# python3 ./custom_password_dictionary_generator.py word [word [word..n]] > wordlist.lst
 ```
 
 ### Example
 ```bash
-python3 ./custom_password_dictionary_generator.py h[i1] y[oO0]u > wordlist.lst
-```
-
-```bash
-cat wordlist.lst
+:~# python3 ./custom_password_dictionary_generator.py h[i1] y[oO0]u > wordlist.lst
+:~# cat wordlist.lst
 
 hi
 h1
